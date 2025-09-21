@@ -1,5 +1,5 @@
 # Self-Healing-Automation
-This repo is proof of concept of  automation testing can be  self-healing Automation, which means automate script adapt to UI changes without breaking the  regression cycle
+This repo is proof of concept of how automation testing can be  self-healing Automation, which means automate script adapt to UI changes without breaking the  regression cycle
 
 # What is automation self-healing?
 

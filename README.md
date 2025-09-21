@@ -1,6 +1,5 @@
 # Self-Healing-Automation
-This repo is proof of concept of how automation testing can be  self-healing Automation, which means automate script adapt to UI changes without breaking the  regression cycle
-
+It demonstrates how automated test scripts can adapt to UI changes without breaking the regression cycle. The goal of this project is to inspire automation engineers to explore AI-powered techniques and integrate them into their workflows, making tests more resilient, intelligent, and maintainable.
 # What is automation self-healing?
 
 Self-healing UI automation means your tests still find and operate on the right elements even after the UI shifts (renamed classes, moved buttons, minor layout changes), so regressions fail only when behavior breaks not just selectors.

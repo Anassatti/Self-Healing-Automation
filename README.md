@@ -3,5 +3,5 @@ This repo is proof of concept of  automation testing can be  self-healing Automa
 
 What is automation self-healing?
 
-Self-healing UI automation means your tests still find and operate on the right elements even after the UI shifts (renamed classes, moved buttons, minor layout changes), so regressions fail only when behavior breaks—not just selectors.
+Self-healing UI automation means your tests still find and operate on the right elements even after the UI shifts (renamed classes, moved buttons, minor layout changes), so regressions fail only when behavior breaks not just selectors.
 

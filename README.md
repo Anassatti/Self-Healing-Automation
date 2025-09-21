@@ -7,5 +7,5 @@ Self-healing UI automation means your tests still find and operate on the right 
 
 # Practical solution
 
-I will demonstrate this POC on simple web page contains user regreistration form, and I will use Playwrite tool.
+I will demonstrate this POC on a one-page registration website + Playwright tests wired to the self-healing helper. It includes a “Simulate UI change” button that removes test IDs, renames ids/names, and reshuffles the DOM—so you can prove the tests still pass.
 

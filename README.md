@@ -1,8 +1,21 @@
-# Self-Healing-Automation
-It demonstrates how automated test scripts can adapt to UI changes without breaking the regression cycle. The goal of this project is to inspire automation engineers to explore AI-powered techniques and integrate them into their workflows, making tests more resilient, intelligent, and maintainable.
-# What is automation self-healing?
+# Self Healing Automation
 
-Self-healing UI automation means your tests still find and operate on the right elements even after the UI shifts (renamed classes, moved buttons, minor layout changes), so regressions fail only when behavior breaks not just selectors.
+This repo is a proof of concept that shows how UI automation can adapt to changes without breaking the regression cycle.
+•	Tiered rules → Stable locators first (data-testid, roles, labels, placeholders).
+•	Local fuzzy matching → String similarity to recover from small text changes.
+•	 AI Semantic Healing → Uses OpenAI embeddings to find the closest element by meaning when all rules fail.
+•	 Heal logs → Every heal is logged (logs/heals/*.jsonl), with a CLI to review and update selectors.
+•	Demo site → A one-page registration form + “Simulate UI change” button that removes IDs, renames attributes, and moves DOM nodes — so you can see healing in action.
+# Why these matters
+In real projects, small UI shifts (renamed buttons, new wrappers, updated placeholders) often cause test scripts to break, leading to wasted time fixing selectors.
+This PoC shows how we can make automation resilient, and how AI can play a direct role in test maintenance.
+Key Features
+•	One-page demo app: Registration form with toggleable DOM mutations.
+•	Playwright tests: Demonstrates both stable and broken UI scenarios.
+•	Self-healing library: Encapsulates tiers + similarity + AI fallback.
+•	AI integration: Optional — set OPENAI_API_KEY to unlock semantic healing.
+The goal is to inspire automation engineers to integrate AI into their testing workflows and move toward truly intelligent regression testing.
+
 
 # Practical solution
 
